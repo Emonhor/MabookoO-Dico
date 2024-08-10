@@ -1,0 +1,24 @@
+/* Styles supplémentaires pour la base de connaissances */
+
+/* Ajoute un espacement en bas de la page */
+        form {
+            padding-bottom: 60px;
+        }
+
+/* Styles pour le formulaire multi-étapes */
+.step-form {
+    display: none; /* Cache toutes les étapes par défaut */
+}
+
+.step-form.active {
+    display: block; /* Affiche l'étape active */
+}
+
+/* Styles supplémentaires pour la page */
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 800px;
+}
